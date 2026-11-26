@@ -35,10 +35,6 @@
 
 ---
 
-
-
----
-
 ## 这是什么
 
 会话安全护栏合集（2026-09-24 由 careful/freeze/unfreeze/guard 四件合并）：破坏性命令警告 （rm -rf、DROP TABLE、force-push、git reset --hard、kubectl delete）、会话编辑范围锁定、 解锁。当执行高风险/不可逆操作、需要限制或放开本会话可编辑目录时使用此 skill。 triggers: - 小心操作 - safety mode - careful mode - prod mode - rm -rf - 危险命令 - 锁定目录 - freeze - unfreeze - 编辑范围 allowed-tools: - Bash - Edit - Write
@@ -68,6 +64,17 @@ MIT License
 添加时请备注：GitHub-safety
 
 > 不提供免费技术支持。问题请走 Issue。
+
+---
+
+## 如果要商用
+
+代码是 MIT，商用不需要问我，改、卖、二次开发都行。
+
+不过商用场景通常比自用麻烦：部署环境、数据合规、出了问题谁兜底。真要落到业务里，
+可以先跟我说一声，这些坑我大概率踩过。
+
+微信 **enhaopang**，备注 `GitHub-仓库名`。
 
 ---
 
